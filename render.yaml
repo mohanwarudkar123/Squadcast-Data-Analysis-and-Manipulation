@@ -2,7 +2,7 @@ databases:
   - name: Warudkarbmohan
     databaseName: Warudkarbmohan
     user: mohan
-
+    password: QNByaSUMRGzQeUSsdqqLUAHdI2TJWe4K
  services:
  - type: pserv
    name: pgbouncer
