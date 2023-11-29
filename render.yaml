@@ -1,6 +1,6 @@
 databases:
   - name: Warudkarbmohan
-    databaseName: Warudkarbmohan
+    databaseName: mohan_db
     user: mohan
     ipAllowList:
     - source: 0.0.0.0/0
