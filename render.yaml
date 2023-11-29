@@ -1,8 +1,24 @@
 databases:
-  # db 1
   - name: Warudkarbmohan
-    region: Singapore (Southeast Asia)
-    plan: free
-    databaseName: mohan_db
+    databaseName: Warudkarbmohan
     user: mohan
 
+ services:
+ - type: pserv
+   name: pgbouncer
+   runtime: docker
+   plan: free
+   repo: https://github.com/mohanwarudkar123/Squadcast-Data-Analysis-and-Manipulation
+   envVars:
+   - key: DATABASE_URL
+     fromDatabase:
+       name: Warudkarbmohan
+       property: connectionString
+   - key: POOL_MODE
+     value: transaction
+   - key: SERVER_RESET_QUERY
+     value: DISCARD ALL
+   - key: MAX_CLIENT_CONN
+     value: 500
+   - key: DEFAULT_POOL_SIZE
+     value: 50
