@@ -3,6 +3,7 @@ databases:
     databaseName: Warudkarbmohan
     user: mohan
     password: QNByaSUMRGzQeUSsdqqLUAHdI2TJWe4K
+    ipAllowList:
  services:
  - type: pserv
    name: pgbouncer
