@@ -3,6 +3,7 @@ databases:
     databaseName: Warudkarbmohan
     user: mohan
     password: QNByaSUMRGzQeUSsdqqLUAHdI2TJWe4K
+    url: postgres://mohan:QNByaSUMRGzQeUSsdqqLUAHdI2TJWe4K@dpg-cli8jreg1b2c73ajtcr0-a.singapore-postgres.render.com/mohan_db
     ipAllowList:
     - source: 0.0.0.0/0
       description: everywhere
