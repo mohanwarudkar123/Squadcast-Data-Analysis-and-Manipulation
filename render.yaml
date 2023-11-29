@@ -1,0 +1,8 @@
+databases:
+  # db 1
+  - name: Warudkarbmohan
+    region: Singapore (Southeast Asia)
+    plan: free
+    databaseName: mohan_db
+    user: mohan
+
