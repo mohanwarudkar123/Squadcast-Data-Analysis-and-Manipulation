@@ -4,6 +4,8 @@ databases:
     user: mohan
     password: QNByaSUMRGzQeUSsdqqLUAHdI2TJWe4K
     ipAllowList:
+    - source: 0.0.0.0/0
+      description: everywhere
  services:
  - type: pserv
    name: pgbouncer
