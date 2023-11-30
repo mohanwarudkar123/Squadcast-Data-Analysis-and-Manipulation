@@ -14,5 +14,4 @@ Repository for Take-home Assignment of Squadcast Data Analysis and Manipulation
 9. Data types for movies table-->
    rater_id [Integer] :: movie_id [Integer] :: ranting [Integer] :: time [Integer]
 
-## Step by step approch
-1. Set up a PostgreSQL database --> 
+
