@@ -1,0 +1,20 @@
+General:
+  Name: Warudkarbmohan
+  PostgreSQL Version: 15
+  Region: Singapore (Southeast Asia)
+
+PostgreSQL Instance:
+  Instance Type: Free •RAM256 MBCPU100m Storage 1 GB
+
+Connections:
+Hostname: dpg-cli8jreg1b2c73ajtcr0-a.singapore-postgres.render.com
+Port: 5432
+Database: mohan_db
+Username: mohan
+Password: QNByaSUMRGzQeUSsdqqLUAHdI2TJWe4K
+Internal Database URL: postgres://mohan:QNByaSUMRGzQeUSsdqqLUAHdI2TJWe4K@dpg-cli8jreg1b2c73ajtcr0-a/mohan_db
+External Database URL: postgres://mohan:QNByaSUMRGzQeUSsdqqLUAHdI2TJWe4K@dpg-cli8jreg1b2c73ajtcr0-a.singapore-postgres.render.com/mohan_db
+PSQL Command: PGPASSWORD=QNByaSUMRGzQeUSsdqqLUAHdI2TJWe4K psql -h dpg-cli8jreg1b2c73ajtcr0-a.singapore-postgres.render.com -U mohan mohan_db
+
+
+
